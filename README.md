@@ -26,42 +26,6 @@ Students managing coursework and deadlines.
 
 5. As a student, I want to see a list of all my tasks, so that I have an overview of my workload.
 
-git init
-git remote add origin https://github.com/lynnghediri2-crypto/study-planner.git
-git add .
-git commit -m "Initial Next.js setup"
-git branch -M main
-git push -u origin main
-
-{
-  "name": "study-planner",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.2.30",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
-}
-export const metadata = {
-  title: "Study Planner",
-  description: "A task management app for students"
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
-export default function Home() {
-  return (
     <main>
       <h1>Study Planner</h1>
       <p>My student task management app.</p>
