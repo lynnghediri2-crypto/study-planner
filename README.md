@@ -48,3 +48,23 @@ git push -u origin main
     "react-dom": "18.2.0"
   }
 }
+export const metadata = {
+  title: "Study Planner",
+  description: "A task management app for students"
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
+export default function Home() {
+  return (
+    <main>
+      <h1>Study Planner</h1>
+      <p>My student task management app.</p>
+    </main>
+  );
+}
