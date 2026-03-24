@@ -33,3 +33,18 @@ git commit -m "Initial Next.js setup"
 git branch -M main
 git push -u origin main
 
+{
+  "name": "study-planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.30",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
